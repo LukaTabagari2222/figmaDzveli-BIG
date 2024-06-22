@@ -1,0 +1,559 @@
+.div1 {
+    background-color: rgb(78, 78, 78);
+    float: left;
+    width: 8%;
+    height: 100%;
+}
+
+.div2 {
+    background-color: rgb(78, 78, 78);
+    float: right;
+    width: 8%;
+    height: 100%;
+    transition: 5s;
+}
+
+.margeerdididid div:hover {
+    transition: 5s;
+    background-color: rgb(71, 190, 24);
+}
+
+.margeerdididid div {
+    animation-name: oridvi;
+    animation-duration: 3s;
+    transition: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oridvi {
+    10% {
+        background-color: rebeccapurple;
+        transition: 5s;
+    }
+
+    20% {
+        background-color: green;
+        transition: 5s;
+    }
+
+    30% {
+        background-color: red;
+        transition: 5s;
+    }
+}
+
+.logoSection #logotedxt {
+
+    color: #DEDEDE;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.logoSection {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+
+}
+
+.hederpaT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navmen {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200;
+    padding-right: 30px;
+
+}
+
+.navmen a {
+    text-decoration: none;
+    color: #DEDEDE;
+    font-family: Manrope, Georgia;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+
+}
+
+.logoo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(50, 50, 50, 0.70);
+    backdrop-filter: blur(10px);
+    /* width: 1350px; */
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.chemssehecasx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: red 2px 2px 3px;
+    color: azure;
+}
+
+.shesaxebsdididivi {
+    background-color: black;
+    width: 400;
+    animation-name: shesaxebbody;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 7s;
+    color: whitesmoke;
+}
+
+
+
+@keyframes shesaxebbody {
+    10% {
+        transform: 5s;
+        background-color: rgb(5, 5, 75);
+        margin-right: 800px;
+        animation-delay: 4s;
+    }
+
+    20% {
+        transform: 5s;
+        background-color: rgb(1, 1, 24);
+    }
+
+    30% {
+        transform: 5s;
+        background-color: rgb(2, 37, 24);
+    }
+
+    40% {
+        transform: 5s;
+        background-color: rgb(1, 59, 14);
+    }
+
+    50% {
+        transform: 5s;
+        background-color: rgb(49, 2, 51);
+        margin-left: 800px;
+        animation-delay: 4s;
+    }
+}
+
+/* .shesaxebsdididivi:hover{
+    transition: 7s;
+    margin-left: 400px;
+} */
+
+#beafilH1::first-letter {
+    font-size: xx-large;
+    color: chartreuse;
+
+}
+
+#beafilH1 {
+    animation-name: big1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes big1 {
+    10% {
+        color: rgb(13, 14, 14);
+        transition: 3s;
+        margin-right: 10px;
+    }
+}
+
+#about {
+    animation-name: aboutge;
+    color: blue;
+    transition: 3s;
+    text-shadow: green 2px 2px 2px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aboutge {
+    10% {
+        margin-right: 3;
+        transition: 3s;
+        color: rebeccapurple;
+        text-shadow: rgb(64, 255, 16) 2px 2px 3px;
+    }
+
+    20% {
+        color: cadetblue;
+        transition: 3s;
+        margin-right: 3;
+        text-shadow: rgb(55, 57, 65) 2px 2px 3px;
+    }
+
+    30% {
+        color: chartreuse;
+        transition: 3s;
+        margin-right: 3;
+        text-shadow: royalblue 2px 2px 3px;
+    }
+}
+
+#about:hover {
+    transition: 3s;
+    color: aqua;
+    text-shadow: rgb(243, 14, 14) 3px 3px 4px;
+}
+
+#reifly {
+    animation-name: reifly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: 3s;
+    color: darkcyan;
+    text-shadow: rgb(64, 255, 16) 3px 3px 4px;
+}
+
+#reifly:hover {
+    transition: 3s;
+    color: rgb(161, 161, 161);
+    text-shadow: rgb(255, 143, 143) 3px 3px 4px;
+}
+
+@keyframes reifly {
+    10% {
+        color: aqua;
+        margin-right: 3;
+        transition: 3s;
+        text-shadow: rgb(219, 99, 0) 2px 2px 3px;
+    }
+
+    20% {
+        color: rgb(17, 37, 37);
+        margin-right: 3;
+        transition: 3s;
+        text-shadow: rgb(0, 58, 216) 2px 2px 3px;
+
+    }
+
+    30% {
+        color: rgb(7, 255, 28);
+        margin-right: 3;
+        transition: 3s;
+        text-shadow: rgb(255, 15, 243) 2px 2px 3px;
+
+    }
+}
+
+#me {
+    transition: 3s;
+    animation-name: me;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#me:hover {
+    color: beige;
+    text-shadow: blue 2px 2px 2px;
+    transition: 3s;
+}
+
+@keyframes me {
+    10% {
+        color: rgb(111, 111, 116);
+        margin-left: 10;
+        transition: 3s;
+        text-shadow: rgb(221, 140, 217) 2px 2px 3px;
+
+    }
+
+    20% {
+        color: rgb(18, 83, 2);
+        margin-left: 10;
+        transition: 3s;
+        text-shadow: rgb(18, 1, 77) 2px 2px 3px;
+
+    }
+
+    30% {
+        color: rgb(255, 6, 6);
+        margin-left: 10;
+        transition: 3s;
+        text-shadow: rgb(9, 255, 0) 2px 2px 3px;
+
+    }
+
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #151515 0%, #4538EC 100%);
+}
+
+.calsbodderBIg {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 588px;
+    height: 522px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 2px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    animation-name: backgriunda;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    gap: 30px;
+}
+
+@keyframes backgriunda {
+    10% {
+        border-color: #4538EC;
+    }
+
+    20% {
+        border-color: #0fd63a;
+    }
+
+    30% {
+        border-color: #ad0219;
+    }
+}
+
+.secinteg {
+    display: flex;
+    justify-content: center;
+}
+
+#fullname {
+    width: 144px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fulname {
+
+   border: solid 1px;
+   width: 300;
+   height: 40;
+   animation-name: lia;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes lia{
+    10%{
+        background-color: #151515;
+    }
+    20%{
+        background-color: #4538EC;
+    }
+    30%{
+        background-color: aquamarine;
+    }
+}
+
+
+#luk {
+    text-decoration: none;
+    width: 144px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+.saltnaMe{
+    border: solid 1px;
+    width: 300;
+    height: 40;
+    gap: 10px;
+    animation-name: aniumosuaah;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+#lastname{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#ta{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;  
+
+
+}
+@keyframes aniumosuaah{
+    10%{
+        background-color: #ad0219;
+    }
+    20%{
+        background-color: #035255;
+    }
+    30%{
+        background-color: #41ad02;
+    }
+}
+.codna {
+    border: solid 1px;
+    width: 300;
+    height: 40;
+
+    animation-name:aaa ;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes aaa{
+    10%{
+background-color: #DEDEDE;
+    }
+    20%{
+        background-color: #0fd63a;
+    }
+    30%{
+        background-color: aqua;
+    }
+}
+#HTnmk{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#laksin{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#motyhau{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+#nasiue{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.migwevebi{
+    border: solid 1px;
+    width: 300;
+    height: 40;
+
+    animation-name:bbb;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes bbb{
+    10%{
+        background-color: #681414;
+            }
+            20%{
+                background-color: #0fd63a;
+            }
+            30%{
+                background-color: rgb(3, 43, 43);
+            }
+}
+#gamoe{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#mcire{
+    text-decoration: none;
+    width: 144px;
+height: 41px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.gamocdiaal{
+    border: solid 1px;
+    width: 300;
+    height: 40;
+    animation-name:abgd;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes abgd{
+    10%{
+        background-color: #a3a3a3;
+    }
+    20%{
+        background-color: #77018f;
+    }
+    30%{
+        background-color: rgb(0, 0, 0);
+    }
+}
